@@ -1,0 +1,27 @@
+name: in_class_group_challenge
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.34
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/bat.png
+    - assets/images/ghost.png
+    - assets/images/pumpkin.png
+    - assets/sounds/background.mp3
+    - assets/sounds/jump_scare.mp3
+    - assets/sounds/success.mp3
